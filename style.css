@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,700&family=Roboto:ital,wght@0,400;1,700&family=Space+Grotesk&family=Yellowtail&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.hero{
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 6%;
+}
+.logo{
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+}
+.hero a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+.hero h3{
+    margin-left: 5px;
+}
+.btn{
+    background: rgba(38, 38, 43, 1);
+    margin-left: 50px;
+    border: 2px solid transparent;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+.content{
+    margin: 100px 10%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.head a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    background: rgba(38, 38, 43, 1);
+    border: 1px solid rgba(109, 109, 109, 1);
+    padding: 10px 15px;
+    border-radius: 50px;   
+}
+.head h5{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.content .body h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 92px;
+    margin-top: 30px;
+}
+.foot {
+    margin-top: 30px;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.semi{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.semi a{
+    font-size: 14px;
+    font-weight: 500;
+    color:  rgba(255, 255, 255, 1);
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #26262B;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+.semi h6{
+    margin-left: 50px;
+    color:  rgba(109, 109, 109, 1);
+}
+.cir{
+    background: linear-gradient(180deg, #99C2FF 0%, #0066FF 100%);
+    width: 411px;
+    height: 411px;
+    border-radius: 411px;
+    position: absolute;
+    left: 839px;
+    top: 157px;
+
+}
+.phoneimg{
+    position: absolute;
+        width: 344px;
+        height: 490px;
+        left: 873px;
+        top: 254px;
+}
