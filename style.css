@@ -109,7 +109,9 @@ body{
         top: 254px;
 }
 .navbar{
-    margin: 250px 400px;
+    margin-top: 250px;
+    margin-left: 430px;
+    text-align: center;
     width: 500px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 50px;
@@ -117,20 +119,37 @@ body{
 .navbar ul li{
     display: inline-block;
     list-style-type: none;
-    padding: 10px 30px;
+    padding: 15px 30px;
 }
 .navbar ul li a{
 text-decoration: none;
 color:  rgba(0, 0, 0, 1);
 font-size: 14px;
-font-weight: 500;
-line-height: 18px;
+font-weight: 1000;
+line-height: 30px
 }
 .navbar ul li a:hover{
     background-color:  #000000;
     border-radius: 50px;
     transition: ease-out 300ms;
-    padding: 10px 10px;
     color:  rgba(255, 255, 255, 1);
-
+    padding: 15px 10px;
+}
+.txt h1{
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 92px;
+    margin-top: 50px;
+}
+.txt h6{
+    color: #6D6D6D;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.txt h6 span{
+    color: rgba(225, 225, 255, 1);
 }
