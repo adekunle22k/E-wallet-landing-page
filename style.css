@@ -153,3 +153,30 @@ line-height: 30px
 .txt h6 span{
     color: rgba(225, 225, 255, 1);
 }
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 382px;
+    height: 225px;
+    padding: 20px 35px;
+    background-color: #1E1F21;
+    margin: 15px;
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+}
+.cards i{
+    font-size: 50px;
+    display: block;
+    
+    color: rgba(255, 255, 255, 1);
+}
+.cards h4{
+    margin-top: 100px;
+}
+.cards h6{
+    color: rgba(109, 109, 109, 1);
+}
