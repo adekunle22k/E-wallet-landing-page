@@ -131,7 +131,7 @@ line-height: 30px
 .navbar ul li a:hover{
     background-color:  #000000;
     border-radius: 50px;
-    transition: ease-out 300ms;
+    transition: ease-in-out 0.3s;
     color:  rgba(255, 255, 255, 1);
     padding: 15px 10px;
 }
@@ -174,9 +174,13 @@ line-height: 30px
     
     color: rgba(255, 255, 255, 1);
 }
+img{
+    margin-top: 20px;
+}
 .cards h4{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .cards h6{
     color: rgba(109, 109, 109, 1);
+    margin-top: 20px;
 }
